@@ -18,3 +18,12 @@ fun euclidianDistanceOf(pattern1: Pattern, pattern2: Pattern) : Double{
 
     return sqrt(sum)
 }
+
+fun readFile(path: String): ArrayList<Pattern>{
+    return arrayListOf(
+        Pattern(arrayOf(1.0,1.0), "clase"),
+        Pattern(arrayOf(1.0,1.0), "clase"),
+        Pattern(arrayOf(1.0,1.0), "clase"),
+        Pattern(arrayOf(1.0,1.0), "clase")
+    )
+}

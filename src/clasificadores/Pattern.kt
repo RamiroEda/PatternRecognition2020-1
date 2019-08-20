@@ -24,4 +24,21 @@ open class Pattern {
         this.claseResultante = pattern.claseResultante
         this.vector = pattern.vector
     }
+
+    override fun equals(other: Any?): Boolean {
+        if(other !is Pattern) return false
+
+        return other.clase == this.clase
+    }
+
+    override fun hashCode(): Int {
+        var result = vector.contentHashCode()
+        result = 31 * result + clase.hashCode()
+        result = 31 * result + claseResultante.hashCode()
+        return result
+    }
+
+    override fun toString(): String {
+        return "\"$clase\": $claseResultante $vector"
+    }
 }

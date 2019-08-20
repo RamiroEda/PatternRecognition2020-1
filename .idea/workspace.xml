@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="" />
+    <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PatternRecognition20201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternRecognition20201.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/RepresentativePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/RepresentativePattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Utils.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +34,17 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1PZ9XqKUuI1MrhGktOjWDA7iJBX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.1.1/resources/app/git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/AppSAESv2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,10 +86,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PatternRecognition20201.kt</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

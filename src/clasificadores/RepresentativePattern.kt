@@ -10,6 +10,7 @@ class RepresentativePattern(pattern: Pattern) : Pattern(pattern.vector.size) {
 
     init {
         add(pattern)
+        this.clase = pattern.clase
     }
 
     fun add(pattern: Pattern){
