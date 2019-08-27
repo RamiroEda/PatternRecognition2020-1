@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatternRecognition20201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternRecognition20201.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/RepresentativePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/RepresentativePattern.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clasificadores/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Utils.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +37,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/AppSAESv2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/app0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -96,14 +95,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Minima distancia puede clasificar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minima distancia puede clasificar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/PatternRecognition20201.kt</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/Documents/Programas Profesores/PatternRecognition2020-1/src/clasificadores/Herramientas.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

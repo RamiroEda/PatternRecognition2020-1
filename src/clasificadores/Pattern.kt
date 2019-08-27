@@ -39,6 +39,6 @@ open class Pattern {
     }
 
     override fun toString(): String {
-        return "\"$clase\": $claseResultante $vector"
+        return "Clase=\"$clase\", Resultado=\"$claseResultante\", Vector=${vector.joinToString(", ", "[", "]")}"
     }
 }
