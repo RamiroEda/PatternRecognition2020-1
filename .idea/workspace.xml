@@ -2,13 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/clasificadores/ResultAnalysis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/exotico_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/noruego_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/rusoazul_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gatos_dataset/siames_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Image.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ImageMinimaDistancia.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ImageRepresentativePattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ImageSet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ImageViewer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/META-INF/PatternRecognition2020-1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/META-INF/PatternRecognition2020-1.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/RepresentativePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/ClasificadorSupervisado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/ClasificadorSupervisado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/MinimaDistancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/MinimaDistancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Reader$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Reader$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/Reader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/UtilsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatternRecognition20201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternRecognition20201.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Pattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/MinimaDistancia.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clasificadores/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/Utils.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -36,14 +108,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/app0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.1.3/resources/app/git/cmd/git.exe" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,6 +157,31 @@
   </component>
   <component name="SvnConfiguration">
     <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="" />
+      <created>1567482454219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567482454219</updated>
+      <workItem from="1567482457001" duration="320000" />
+      <workItem from="1567539679101" duration="7614000" />
+      <workItem from="1567639538833" duration="1982000" />
+      <workItem from="1567685564513" duration="3000" />
+      <workItem from="1567799251708" duration="930000" />
+      <workItem from="1567808371136" duration="4550000" />
+      <workItem from="1567883317780" duration="3775000" />
+      <workItem from="1567894209090" duration="8527000" />
+      <workItem from="1567916692926" duration="2177000" />
+      <workItem from="1567961884751" duration="1728000" />
+      <workItem from="1567971452627" duration="1000" />
+      <workItem from="1568048797073" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

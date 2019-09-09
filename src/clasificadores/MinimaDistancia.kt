@@ -1,10 +1,14 @@
 package clasificadores
 
+import images.Image
+import java.awt.Color
+
 /*
 Creado por ramir el sábado 17 de agosto del 2019 a las 16:05 para PatternRecognition2020-1
 */
 class MinimaDistancia : ClasificadorSupervisado {
-    private val representativePattern = ArrayList<RepresentativePattern>()
+    val representativePattern = ArrayList<RepresentativePattern>()
+    lateinit var resultAnalysis: ResultAnalysis
 
     override fun classify(pattern: Pattern) {
         var mDist = Double.POSITIVE_INFINITY
@@ -22,11 +26,12 @@ class MinimaDistancia : ClasificadorSupervisado {
         pattern.claseResultante = representativePattern[iDist].clase
     }
 
-    override fun classify(patterns: ArrayList<Pattern>) {
+    override fun classify(patterns: Array<Pattern>) {
         for(p in patterns) classify(p)
+        resultAnalysis = ResultAnalysis(patterns)
     }
 
-    override fun train(patterns: ArrayList<Pattern>) {
+    override fun train(patterns: Array<Pattern>) {
         representativePattern.add(RepresentativePattern(patterns.first()))
 
         for(p in patterns){
