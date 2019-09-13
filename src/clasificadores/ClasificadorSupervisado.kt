@@ -1,9 +1,14 @@
 package clasificadores
 
+import models.Pattern
+import models.ResultAnalysis
+
 /*
 Creado por ramir el sábado 17 de agosto del 2019 a las 16:03 para PatternRecognition2020-1
 */
 interface ClasificadorSupervisado {
+    var resultAnalysis: ResultAnalysis
+
     fun train(patterns : Array<Pattern>)
     fun classify(pattern: Pattern)
     fun classify(patterns: Array<Pattern>)

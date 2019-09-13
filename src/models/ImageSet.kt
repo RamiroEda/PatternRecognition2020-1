@@ -1,8 +1,8 @@
-package images
+package models
 
+import clasificadores.minima_distancia.images.ImageViewer
+import java.awt.Color
 import java.io.File
-import clasificadores.Pattern
-import clasificadores.RepresentativePattern
 import java.io.FileFilter
 
 fun viewRepresentativePattern(representativePatterns: List<ImageRepresentativePattern>, imageWidth: Int, imageHeight: Int){

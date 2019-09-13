@@ -1,4 +1,4 @@
-package clasificadores
+package models
 
 /*
 Creado por ramir el sábado 17 de agosto del 2019 a las 14:47 para PatternRecognition2020-1

@@ -1,21 +1,22 @@
-package clasificadores
+package clasificadores.minima_distancia.images
 
-import images.Image
-import java.awt.Color
+import clasificadores.*
+import models.Image
+import models.ImageRepresentativePattern
+import models.Pattern
+import models.ResultAnalysis
+import utils.euclidianDistanceOfImage
 
-/*
-Creado por ramir el sábado 17 de agosto del 2019 a las 16:05 para PatternRecognition2020-1
-*/
-class MinimaDistancia : ClasificadorSupervisado {
-    val representativePattern = ArrayList<RepresentativePattern>()
-    lateinit var resultAnalysis: ResultAnalysis
+class ImageMinimaDistancia  : ClasificadorSupervisado {
+    val representativePattern = ArrayList<ImageRepresentativePattern>()
+    override lateinit var resultAnalysis: ResultAnalysis
 
     override fun classify(pattern: Pattern) {
         var mDist = Double.POSITIVE_INFINITY
         var iDist = -1
 
         for((i,p) in representativePattern.withIndex()){
-            val distance = euclidianDistanceOf(p, pattern)
+            val distance = euclidianDistanceOfImage(p, pattern as Image)
 
             if(distance < mDist){
                 mDist = distance
@@ -32,15 +33,15 @@ class MinimaDistancia : ClasificadorSupervisado {
     }
 
     override fun train(patterns: Array<Pattern>) {
-        representativePattern.add(RepresentativePattern(patterns.first()))
+        representativePattern.add(ImageRepresentativePattern(patterns.first() as Image))
 
         for(p in patterns){
             val pos = representativePattern.indexOf(p)
 
             if(pos == -1){
-                representativePattern.add(RepresentativePattern(p))
+                representativePattern.add(ImageRepresentativePattern(p as Image))
             }else{
-                representativePattern[pos].add(p)
+                representativePattern[pos].add(p as Image)
             }
         }
 

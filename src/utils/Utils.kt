@@ -1,7 +1,8 @@
-package clasificadores
+package utils
 
-import images.Image
-import images.ImageRepresentativePattern
+import models.Image
+import models.ImageRepresentativePattern
+import models.Pattern
 import java.io.File
 import java.io.IOException
 import javax.swing.JFileChooser
@@ -32,39 +33,39 @@ fun euclidianDistanceOfImage(pattern1: ImageRepresentativePattern, pattern2: Ima
     var sum = 0.0
 
     pattern1.vectorColor.forEachIndexed { index, value ->
-        sum += colorDifference(value, pattern2.vectorColor[index]).pow(2)
+        sum += colorDifference(value, pattern2.vectorColor[index])
     }
 
     return sqrt(sum)
 }
 
-fun colorDifference(c1 : RGB, c2 :RGB) : Double = sqrt((c1.red-c2.red).toDouble().pow(2)+(c1.green-c2.green).toDouble().pow(2)+(c1.blue-c2.blue).toDouble().pow(2))
+fun colorDifference(c1 : RGB, c2 : RGB) : Double = (c1.red-c2.red).toDouble().pow(2)+(c1.green-c2.green).toDouble().pow(2)+(c1.blue-c2.blue).toDouble().pow(2)
 
-fun getParams(patterns: Array<Pattern>) : Array<String>{
-    val params = ArrayList<String>()
+fun getClasses(patterns: Array<Pattern>) : Array<String>{
+    val classes = ArrayList<String>()
     for (p in patterns){
-        if(!params.contains(p.clase)){
-            params.add(p.clase)
+        if(!classes.contains(p.clase)){
+            classes.add(p.clase)
         }
     }
-    return params.toTypedArray()
-}
-
-fun getFile() : JFileChooser{
-    val fileChooser = JFileChooser()
-    fileChooser.currentDirectory = File("./")
-    fileChooser.showOpenDialog(fileChooser)
-
-    return fileChooser
+    return classes.toTypedArray()
 }
 
 class Reader{
     companion object{
-        private lateinit var data : Array<Pattern>
+        lateinit var data : Array<Pattern>
         private lateinit var file : File
 
+        fun getFile() : JFileChooser{
+            val fileChooser = JFileChooser()
+            fileChooser.currentDirectory = File("./")
+            fileChooser.showOpenDialog(fileChooser)
+
+            return fileChooser
+        }
+
         fun readFile(filter: Array<Boolean> = arrayOf()){
-            if(!::file.isInitialized){
+            if(!Companion::file.isInitialized){
                 file = getFile().selectedFile
             }
 
@@ -91,7 +92,7 @@ class Reader{
                     }
 
                     if (tokens.isNotEmpty()) {
-                        dataTmp.add(Pattern(Array(tokens.size-1){
+                        dataTmp.add(Pattern(Array(tokens.size - 1) {
                             tokens[it].toDouble()
                         }, tokens.last()))
                     }

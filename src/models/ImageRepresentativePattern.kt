@@ -1,7 +1,6 @@
-package images
+package models
 
-import clasificadores.Pattern
-import clasificadores.RGB
+import utils.RGB
 import java.lang.Exception
 
 class ImageRepresentativePattern(pattern: Image) : Pattern(pattern.vectorColor.size) {

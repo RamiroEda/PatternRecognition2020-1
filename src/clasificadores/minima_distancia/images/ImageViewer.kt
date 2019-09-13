@@ -1,6 +1,6 @@
-package images
+package clasificadores.minima_distancia.images
 
-import clasificadores.RepresentativePattern
+import models.ImageRepresentativePattern
 import java.awt.Color
 import java.awt.Dimension
 import java.awt.Graphics

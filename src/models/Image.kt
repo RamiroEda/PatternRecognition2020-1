@@ -1,7 +1,6 @@
-package images
+package models
 
-import clasificadores.Pattern
-import clasificadores.RGB
+import utils.RGB
 import java.awt.Color
 import java.io.File
 import java.lang.Exception
