@@ -1,12 +1,15 @@
 package clasificadores.k_neighbours
 
 import clasificadores.ClasificadorSupervisado
+import models.Image
 import models.Pattern
 import models.ResultAnalysis
 import utils.euclidianDistanceOf
+import utils.euclidianDistanceOfImage
 import utils.getClasses
 
 class KNeighbours (private val kNeighbours: Int) : ClasificadorSupervisado {
+    private data class Pair(val clase: String, var count: Int = 0)
     lateinit var patterns: Array<Pattern>
     override lateinit var resultAnalysis: ResultAnalysis
     private lateinit var classes : Array<String>
@@ -21,21 +24,58 @@ class KNeighbours (private val kNeighbours: Int) : ClasificadorSupervisado {
             euclidianDistanceOf(pattern, it)
         }
 
-        val neighbors = patterns.take(kNeighbours)
+        val classesCount = classes.map {
+            Pair(it)
+        }.toTypedArray()
 
-        var max = Pair(neighbors.first().clase, Int.MIN_VALUE)
-
-        for (c in classes){
-            val count = neighbors.count { it.clase == c }
-            if(count > max.second){
-                max = Pair(c, count)
+        for (p in patterns){
+            if(++classesCount[classes.indexOf(p.clase)].count >= kNeighbours){
+                break
             }
         }
 
-        pattern.claseResultante = max.first
+        val resultante = classesCount.maxBy {
+            it.count
+        }
+
+        if(resultante != null){
+            pattern.claseResultante = resultante.clase
+        }
     }
 
     override fun classify(patterns: Array<Pattern>) {
+        for(p in patterns){
+            classify(p)
+        }
+        this.resultAnalysis = ResultAnalysis(this.patterns)
+    }
+
+
+    fun classify(pattern: Image) {
+        patterns.sortBy {
+            euclidianDistanceOfImage(pattern, it as Image)
+        }
+
+        val classesCount = classes.map {
+            Pair(it)
+        }.toTypedArray()
+
+        for (p in patterns){
+            if(++classesCount[classes.indexOf(p.clase)].count >= kNeighbours){
+                break
+            }
+        }
+
+        val resultante = classesCount.maxBy {
+            it.count
+        }
+
+        if(resultante != null){
+            pattern.claseResultante = resultante.clase
+        }
+    }
+
+    fun classify(patterns: Array<Image>) {
         for(p in patterns){
             classify(p)
         }

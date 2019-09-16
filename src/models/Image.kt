@@ -16,7 +16,9 @@ class Image (image: File,
             val bufferedImage = ImageIO.read(image)
 
             vectorColor = Array(height*width){
-                val color = Color(bufferedImage.getRGB(it%width, it/height))
+                val numericColor = bufferedImage.getRGB(it%width, it/height)
+                val color = Color(numericColor)
+                vector[it] = numericColor.toDouble()
                 RGB(color.red, color.green, color.blue)
             }
 

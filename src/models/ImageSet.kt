@@ -15,7 +15,7 @@ class ImageSet (directory: String,
                 imageWidth: Int,
                 imageHeight: Int) {
 
-    private val images = ArrayList<Image>()
+    val images = ArrayList<Image>()
 
     init {
         val folder = File(directory)
@@ -27,7 +27,7 @@ class ImageSet (directory: String,
                 images.add(Image(file, imageWidth, imageHeight))
             }
         }else{
-            throw Exception("El directorio seleccionado no es una carpeta")
+            throw Exception("El directorio seleccionado no es una carpeta o esta vacio")
         }
     }
 

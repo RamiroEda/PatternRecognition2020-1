@@ -27,6 +27,18 @@ fun euclidianDistanceOf(pattern1: Pattern, pattern2: Pattern) : Double{
     return sqrt(sum)
 }
 
+fun euclidianDistanceOfImage(pattern1: Image, pattern2: Image) : Double{
+    if(pattern1.vectorColor.size != pattern2.vectorColor.size) throw Exception("El tamaño de los vectores es diferente")
+
+    var sum = 0.0
+
+    pattern1.vectorColor.forEachIndexed { index, value ->
+        sum += colorDifference(value, pattern2.vectorColor[index])
+    }
+
+    return sqrt(sum)
+}
+
 fun euclidianDistanceOfImage(pattern1: ImageRepresentativePattern, pattern2: Image) : Double{
     if(pattern1.vectorColor.size != pattern2.vectorColor.size) throw Exception("El tamaño de los vectores es diferente")
 
