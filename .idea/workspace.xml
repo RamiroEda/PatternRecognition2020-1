@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wine.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zamu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Evaluador.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ImageManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/New Project.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatternRecognition20201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternRecognition20201.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clasificadores/k_neighbours/KNeighbours.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/k_neighbours/KNeighbours.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/minima_distancia/MinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/minima_distancia/MinimaDistancia.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Image.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ImageSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ImageSet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ImageSet.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +127,10 @@
       <workItem from="1568397528644" duration="8451000" />
       <workItem from="1568416720933" duration="3904000" />
       <workItem from="1568424415094" duration="1134000" />
+      <workItem from="1568676869222" duration="1949000" />
+      <workItem from="1568750443730" duration="8159000" />
+      <workItem from="1568770053732" duration="822000" />
+      <workItem from="1568836061930" duration="2806000" />
     </task>
     <task id="LOCAL-00001" summary="K Vecinos">
       <created>1568400322222</created>

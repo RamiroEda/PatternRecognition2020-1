@@ -95,7 +95,7 @@ class Reader{
                         throw Exception("El tamaño del filtro no concuerda con el tamaño del vector de entrada. iFilter=${filter.size}, iVector=${tokensInit.size-1}")
                     }
 
-                    val tokens = tokensInit.filterIndexed { i, s ->
+                    val tokens = tokensInit.filterIndexed { i, _ ->
                         when {
                             filter.isEmpty() -> true
                             i == tokensInit.size-1 -> true

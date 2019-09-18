@@ -2,18 +2,25 @@ package models
 
 import utils.RGB
 import java.awt.Color
+import java.awt.image.BufferedImage
 import java.io.File
 import java.lang.Exception
 import javax.imageio.ImageIO
 
-class Image (image: File,
+class Image (val image: File,
              width: Int,
              height: Int) : Pattern(width*height){
     val vectorColor : Array<RGB>
 
+
+    companion object{
+        fun toBufferedImage(file: File): BufferedImage = ImageIO.read(file)
+        fun toBufferedImage(file: Image): BufferedImage = ImageIO.read(file.image)
+    }
+
     init {
         try {
-            val bufferedImage = ImageIO.read(image)
+            val bufferedImage = toBufferedImage(image)
 
             vectorColor = Array(height*width){
                 val numericColor = bufferedImage.getRGB(it%width, it/height)

@@ -4,6 +4,7 @@ import clasificadores.ClasificadorSupervisado
 import models.Image
 import models.Pattern
 import models.ResultAnalysis
+import utils.ImageSet
 import utils.euclidianDistanceOf
 import utils.euclidianDistanceOfImage
 import utils.getClasses
@@ -24,23 +25,7 @@ class KNeighbours (private val kNeighbours: Int) : ClasificadorSupervisado {
             euclidianDistanceOf(pattern, it)
         }
 
-        val classesCount = classes.map {
-            Pair(it)
-        }.toTypedArray()
-
-        for (p in patterns){
-            if(++classesCount[classes.indexOf(p.clase)].count >= kNeighbours){
-                break
-            }
-        }
-
-        val resultante = classesCount.maxBy {
-            it.count
-        }
-
-        if(resultante != null){
-            pattern.claseResultante = resultante.clase
-        }
+        classification(pattern)
     }
 
     override fun classify(patterns: Array<Pattern>) {
@@ -51,11 +36,15 @@ class KNeighbours (private val kNeighbours: Int) : ClasificadorSupervisado {
     }
 
 
-    fun classify(pattern: Image) {
+    override fun classify(pattern: Image) {
         patterns.sortBy {
             euclidianDistanceOfImage(pattern, it as Image)
         }
 
+        classification(pattern)
+    }
+
+    private fun classification(pattern: Pattern){
         val classesCount = classes.map {
             Pair(it)
         }.toTypedArray()
@@ -75,8 +64,14 @@ class KNeighbours (private val kNeighbours: Int) : ClasificadorSupervisado {
         }
     }
 
-    fun classify(patterns: Array<Image>) {
-        for(p in patterns){
+    override fun train(patterns: ImageSet) {
+        val patternArray = patterns.toPatternArray()
+        this.patterns = patternArray.clone()
+        classes = getClasses(patternArray)
+    }
+
+    override fun classify(patterns: ImageSet) {
+        for(p in patterns.images){
             classify(p)
         }
         this.resultAnalysis = ResultAnalysis(this.patterns)
