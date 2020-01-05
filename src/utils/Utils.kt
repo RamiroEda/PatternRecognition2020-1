@@ -5,10 +5,12 @@ import models.ImageRepresentativePattern
 import models.Pattern
 import java.io.File
 import java.io.IOException
+import java.util.*
 import javax.swing.JFileChooser
 import kotlin.collections.ArrayList
 import kotlin.math.pow
 import kotlin.math.sqrt
+import kotlin.random.Random
 
 /*
 Creado por ramir el sábado 17 de agosto del 2019 a las 15:12 para PatternRecognition2020-1
@@ -63,6 +65,38 @@ fun getClasses(patterns: Array<Pattern>) : Array<String>{
     return classes.toTypedArray()
 }
 
+fun getResultClasses(patterns: Array<Pattern>) : Array<String>{
+    val classes = ArrayList<String>()
+    for (p in patterns){
+        if(!classes.contains(p.claseResultante)){
+            classes.add(p.claseResultante)
+        }
+    }
+    return classes.toTypedArray()
+}
+
+fun patternsMean(patterns: List<Pattern>) : Pattern{
+    if(patterns.isEmpty()) throw Exception("No se puede calcular el promedio de una lista vacia")
+
+    val array = DoubleArray(patterns.first().vector.size)
+
+    for(p in patterns){
+        for((i, v) in p.vector.withIndex()){
+            array[i] += v
+        }
+    }
+
+    for (i in array.indices){
+        array[i] /= patterns.size.toDouble()
+    }
+
+    return Pattern(array, "")
+}
+
+fun randomDouble() : Double{
+    return Random(Calendar.getInstance().timeInMillis).nextDouble()
+}
+
 class Reader{
     companion object{
         lateinit var data : Array<Pattern>
@@ -104,7 +138,7 @@ class Reader{
                     }
 
                     if (tokens.isNotEmpty()) {
-                        dataTmp.add(Pattern(Array(tokens.size - 1) {
+                        dataTmp.add(Pattern(DoubleArray(tokens.size - 1) {
                             tokens[it].toDouble()
                         }, tokens.last()))
                     }

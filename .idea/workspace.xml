@@ -2,18 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ed6f2a-e36c-4ee8-a6a7-1dd989fc6739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/Evaluador.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/ImageManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfree_jcommon_1_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfree_jfreechart_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/220px-CIE_1976_UCS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/AbsenteeismAtWork_740.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/HighDimentional_1351.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/IrisPlan_150.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/MinuteWeather_1048575.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/PokerHand_25010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/RGB_Colorcube_Corner_White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/Syntethic2D_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/WineQuality_4989.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/Wine_178.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/anime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorNoSupervisado.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clasificadores/kmeans/KMeans.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Graficador2D.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatternRecognition2020-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PatternRecognition2020-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/META-INF/PatternRecognition2020-1.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/META-INF/PatternRecognition2020-1.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/PatternRecognition20201Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/ClasificadorSupervisado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/ClasificadorSupervisado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$classify$$inlined$sortBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$classify$$inlined$sortBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$classify$$inlined$sortBy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours$classify$$inlined$sortBy$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/k_neighbours/KNeighbours.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/ImageViewerOriginal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/ImageViewerOriginal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/MinimaDistancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/MinimaDistancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageMinimaDistancia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageMinimaDistancia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageViewer$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageViewer$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/clasificadores/minima_distancia/images/ImageViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/ImageRepresentativePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/ImageRepresentativePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/ImageSet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/ImageSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/ImageSetKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/Pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/Pattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/RepresentativePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/models/RepresentativePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/RGB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/RGB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion$readFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion$readFile$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/utils/UtilsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/wine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternRecognition2020-1/zamu.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PatternRecognition20201.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternRecognition20201.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/ClasificadorSupervisado.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/k_neighbours/KNeighbours.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/k_neighbours/KNeighbours.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clasificadores/minima_distancia/MinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/minima_distancia/MinimaDistancia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/minima_distancia/images/ImageMinimaDistancia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/minima_distancia/images/ImageMinimaDistancia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clasificadores/minima_distancia/images/ImageViewer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/clasificadores/minima_distancia/images/ImageViewer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Image.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ImageSet.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Pattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Pattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RepresentativePattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RepresentativePattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Evaluador.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Evaluador.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ImageManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ImageManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zamu.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +85,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.1.3/resources/app/git/cmd/git.exe" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -130,7 +179,28 @@
       <workItem from="1568676869222" duration="1949000" />
       <workItem from="1568750443730" duration="8159000" />
       <workItem from="1568770053732" duration="822000" />
-      <workItem from="1568836061930" duration="2806000" />
+      <workItem from="1568836061930" duration="2896000" />
+      <workItem from="1568935902020" duration="2814000" />
+      <workItem from="1569267032488" duration="8889000" />
+      <workItem from="1569441609962" duration="2510000" />
+      <workItem from="1569860542124" duration="726000" />
+      <workItem from="1570047587108" duration="1550000" />
+      <workItem from="1570321179750" duration="602000" />
+      <workItem from="1570505952975" duration="270000" />
+      <workItem from="1570565373156" duration="2514000" />
+      <workItem from="1570652625694" duration="3310000" />
+      <workItem from="1570850330125" duration="28000" />
+      <workItem from="1571170966648" duration="3490000" />
+      <workItem from="1571246859105" duration="18047000" />
+      <workItem from="1571273759631" duration="71000" />
+      <workItem from="1571282915731" duration="6409000" />
+      <workItem from="1571428302194" duration="2008000" />
+      <workItem from="1571430326968" duration="808000" />
+      <workItem from="1571859677249" duration="3845000" />
+      <workItem from="1572283640973" duration="18000" />
+      <workItem from="1573678130766" duration="834000" />
+      <workItem from="1573679066582" duration="2947000" />
+      <workItem from="1576014924994" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="K Vecinos">
       <created>1568400322222</created>
@@ -139,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568400322222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Imagenes">
+      <created>1568838891239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568838891239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +239,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Minima distancia puede clasificar" />
     <MESSAGE value="K Vecinos" />
-    <option name="LAST_COMMIT_MESSAGE" value="K Vecinos" />
+    <MESSAGE value="Imagenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imagenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -171,6 +249,11 @@
           <url>file://$USER_HOME$/Documents/Programas Profesores/PatternRecognition2020-1/src/clasificadores/Herramientas.java</url>
           <line>21</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/PatternRecognition20201.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

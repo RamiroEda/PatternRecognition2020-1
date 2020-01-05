@@ -16,11 +16,19 @@ class Evaluador (private val clazz: KClass<out Any>,
     lateinit var bestResult: Pair<Float, Array<Boolean>>
 
     init {
+        if(debug){
+            println("---------- ${clazz.simpleName} ---------------")
+        }
         Reader.readFile()
         val dataSize = data.first().vector.size
         for (x in 1..(2.0).pow(dataSize).toInt()){
             val comb = intToBoolArray(x, dataSize)
             Reader.readFile(comb)
+
+            if(debug){
+                println(comb.joinToString(" - "))
+            }
+
             val clasificadorSupervisado = getInstance()
 
             if(clasificadorSupervisado != null){

@@ -10,6 +10,7 @@ class RepresentativePattern(pattern: Pattern) : Pattern(pattern.vector.size) {
 
     init {
         add(pattern)
+        elements = 0
         this.clase = pattern.clase
     }
 
@@ -24,8 +25,16 @@ class RepresentativePattern(pattern: Pattern) : Pattern(pattern.vector.size) {
 
     fun update(){
         this.vector.forEachIndexed { index, value ->
-            this.vector[index] = value.div(elements)
+            this.vector[index] = if(elements > 0){
+                value.div(elements)
+            }else{
+                value
+            }
         }
         elements = 0
+    }
+
+    fun cloneRepresentative() : RepresentativePattern{
+        return RepresentativePattern(this)
     }
 }

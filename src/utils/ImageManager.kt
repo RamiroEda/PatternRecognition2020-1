@@ -8,12 +8,6 @@ import java.io.File
 import java.io.FileFilter
 
 
-fun viewRepresentativePattern(representativePatterns: List<ImageRepresentativePattern>, imageWidth: Int, imageHeight: Int){
-    for(pattern in representativePatterns){
-        ImageViewer(pattern, imageWidth, imageHeight).isVisible = true
-    }
-}
-
 class ImageSet (directory: String,
                 imageWidth: Int,
                 imageHeight: Int) {

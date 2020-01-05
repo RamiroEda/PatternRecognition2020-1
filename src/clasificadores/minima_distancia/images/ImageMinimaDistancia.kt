@@ -5,9 +5,22 @@ import models.Image
 import models.ImageRepresentativePattern
 import models.Pattern
 import models.ResultAnalysis
+import utils.ImageSet
 import utils.euclidianDistanceOfImage
 
 class ImageMinimaDistancia  : ClasificadorSupervisado {
+    override fun train(patterns: ImageSet) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun classify(pattern: Image) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun classify(patterns: ImageSet) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     val representativePattern = ArrayList<ImageRepresentativePattern>()
     override lateinit var resultAnalysis: ResultAnalysis
 
